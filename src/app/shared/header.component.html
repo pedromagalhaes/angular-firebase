@@ -1,0 +1,30 @@
+<nav class="navbar navbar-dark bg-inverse bg-faded">
+  <div class="container">
+    <a class="navbar-brand" routerLink="">Company name</a>
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/services" >Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+    <!--
+    <form class="form-inline pull-xs-right">
+      <input class="form-control" type="text" placeholder="Search">
+      <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </form>
+    -->
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
