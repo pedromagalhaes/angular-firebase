@@ -1,31 +1,66 @@
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<div class="heading">
   <div class="container">
-    <h1 class="display-3">Hello, contact!</h1>
-    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Services <small>Subheading</small></h2>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a>
+          </li>
+          <li class="active">Services</li>
+        </ol>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="container">
-  <!-- Example row of columns -->
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-      <h2>Heading</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+<div class="contact module">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-8">
+        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Details</h3>
+        <p>3481 Melrose Place<br>Beverly Hills, CA 90210<br></p>
+        <p><i class="material-icons">phone</i> <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+        <p><i class="material-icons">email</i> <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a></p>
+        <p><i class="material-icons">query_builder</i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+      </div>
     </div>
   </div>
-</div> <!-- /container -->
+</div>
 
-<hr>
+<div class="heading">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Contact Form</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contactForm module">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-8">
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
+            <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="6"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

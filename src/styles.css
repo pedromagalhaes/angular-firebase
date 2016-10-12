@@ -8,14 +8,26 @@ body{
     font-size: 14px;
 }
 
+
+/**
+ * Paragraphs
+ */
 p{
     color: #333;
 }
 
+
+/**
+ * Links
+ */
 a{
     color: #333;
 }
 
+
+/**
+ * Heading
+ */
 .heading{
     margin-top: 40px;
 }
@@ -28,27 +40,52 @@ a{
     color: #777;
 }
 
+
+/**
+ * Carousel
+ */
 #carousel-example-generic{
     margin-bottom: 40px;
 }
 @media(min-width:992px){
     #carousel-example-generic{
-        height:500px;
+        max-height:500px;
+        width: 100%;
+    }
+    #carousel-example-generic img{
+        max-height:500px;
+        width: 100%;
     }
 }
 
+
+/**
+ * Buttons
+ */
 .btn-outline-gray{
     border-color: #ccc;
 }
 
+
+/**
+ * Module
+ */
 .module{
     margin-bottom: 40px;
 }
 
+
+/**
+ * Portfolio
+ */
 .img-portfolio {
     margin-bottom: 30px;
 }
 
+
+/**
+ * Call to Action
+ */
 .well {
     min-height: 20px;
     padding: 19px;
@@ -57,6 +94,10 @@ a{
     border: 1px solid #e3e3e3;
  }
 
+
+/**
+ * Breadcumb
+ */
 .breadcrumb {
     padding: 8px 15px;
     margin-bottom: 20px;
@@ -74,4 +115,39 @@ a{
     padding: 0 5px;
     color: #ccc;
     content: "/\00a0";
+}
+
+
+/**
+ * Tabs
+ */
+.tab-pane .description{
+    margin-top: 20px;
+}
+
+
+/**
+ * Pagination
+ */
+.page-item.active .page-link,
+.page-item.active .page-link:focus,
+.page-item.active .page-link:hover{
+    color: #fff;
+    background-color: #373a3c;
+    border-color: transparent;
+    text-decoration: none;
+}
+
+.page-item .page-link,
+.page-item .page-link:focus,
+.page-item .page-link:hover{
+    color: #333;
+    text-decoration: none;
+}
+
+.material-icons {
+    font-size: 16px;
+    float: left;
+    line-height:22px;
+    margin-right: 8px;
 }
