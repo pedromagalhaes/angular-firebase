@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "ng2-corporate": "backend-c8a6f",
+    "default": "ng2-corporate-71611",
+    "ng2-corp": "ng2-corp"
+  }
+}
