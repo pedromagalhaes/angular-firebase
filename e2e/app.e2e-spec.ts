@@ -1,6 +1,6 @@
 import { Ng21Page } from './app.po';
 
-describe('ng2-1 App', function() {
+describe('ng2_1 App', function() {
   let page: Ng21Page;
 
   beforeEach(() => {
