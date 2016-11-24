@@ -22,6 +22,9 @@ p{
  */
 a{
   color: #333;
+  &:hover{
+    color: #000;
+  }
 }
 
 
@@ -62,6 +65,13 @@ a{
  */
 .btn-outline-gray{
   border-color: #ccc;
+}
+
+.bg-inverse{
+  color: #fff;
+  &:hover{
+    color: #fff;
+  }
 }
 
 
